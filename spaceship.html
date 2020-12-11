@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(20, 20, 20);
+        }
+        canvas {
+            background-color: rgb(20, 20, 20);
+        }
+        #counter {
+            width: 100%;
+            bottom: 0.5em;
+            left: 1em;
+            color: white;
+            position: fixed;
+            font-size: 3em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        
+    </style>
+</head>
+<body id = "body" onload="onLoad()">
+    
+    <canvas id="drawingSurface" ></canvas>
+    <div id="countdown-wrapper">
+        <h2 id="counter">Score: 0</h2>
+    </div>
+    
+    <script src="spacehsip-classes.js"></script>
+</body>
+</html>
